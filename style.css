@@ -1,0 +1,45 @@
+:root {
+  /* Background color */
+
+  --color-landing-bg: #f48101;
+  --color-frontpage-bg: #f59d2e;
+  --color-begivenhed-bg: #aec3c3;
+  --color-menu-bg: #feffed;
+  --color-tankbag-bg: #fde7ae;
+  --color-merch-bg: #bdd4f3;
+
+  /*color */
+  --strong-orange: #f48101;
+  --light-orange: #f59d2e;
+  --dark-blue: #01449e;
+  --off-white: #feffed;
+  --dark: #231d1f;
+
+  /* Headlines (size)*/
+  --font-h1-size: 1rem;
+  --font-h2-size: 1rem;
+  --font-h3-size: 1rem;
+  /* Global menu */
+  --color-menu-bg: #f48101;
+  /* Links */
+  --color-link-bg: #ecf674;
+  --color-link-hover: light-dark(#fd4c85, #fd4c85);
+  --color-link-active: light-dark(#99958f);
+  --border-radius-links: 1px;
+  /* Headlines (color) */
+  --color-headline-bg: #50907e;
+  /* Tekst */
+  --color-text: light-dark (#000, #f3f3f3);
+  --color-text-link: #000;
+  --color-text-inverted: light-dark (#ffffff, #000);
+
+  /*  Margins */
+  --margin-head-bottom: 5px;
+
+  /* Fonts & font weights*/
+  --font-family-sans: ui-sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 300;
+  --font-weight-light: 200;
+}
