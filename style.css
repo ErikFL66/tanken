@@ -120,3 +120,29 @@ select,
   --font-weight-regular: 300;
   --font-weight-light: 200;
 }
+
+/* Nav styling */
+.logonav {
+  width: 18%;
+  z-index: 1;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+.navgrid-1_1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navcolor {
+  background-color: var(--strong-orange);
+  border: 4px solid var(--dark-blue);
+  width: 2000px;
+  height: 3rem;
+  margin-top: 2rem;
+  padding-left: 20rem;
+  margin-left: -20rem;
+  padding-top: 0.5rem;
+}
