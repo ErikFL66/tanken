@@ -122,18 +122,22 @@ select,
 }
 
 /* Nav styling */
-
+.mob-navgrid-1_1 {
+  display: none;
+}
 .burger .line {
   display: block;
-  width: 1rem;
+  width: 2rem;
   height: 2px;
   background-color: #ffffff;
   margin-bottom: 5px;
+  /* padding-right: 2rem; */
   transition: 0.2s linear;
 }
 .burger {
   display: none;
   border: none;
+  margin-right: 2rem;
 }
 
 .burger {
@@ -142,9 +146,6 @@ select,
   cursor: pointer;
 }
 @media (min-width: 1000px) {
-  .mob-navgrid-1_1 {
-    display: none;
-  }
   #logomobil {
     display: none;
   }
@@ -249,7 +250,7 @@ select,
     border-top: 4px solid var(--dark-blue);
     border-bottom: 4px solid var(--dark-blue);
     width: 100%;
-    height: 2.2rem;
+    height: 5rem;
     margin-top: 1rem;
     /* padding-left: 12rem; */
     /* margin-left: -20rem; */
@@ -260,7 +261,8 @@ select,
     display: block;
     margin: auto;
     margin-top: 0.2rem;
-    width: 40%;
+    width: 20%;
+    margin-left: 1rem;
     /* margin-left: 17%; */
   }
 
@@ -276,7 +278,7 @@ select,
     background-color: transparent;
 
     margin-left: 5%;
-    margin-top: 7%;
+    /* margin-top: 7%; */
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
