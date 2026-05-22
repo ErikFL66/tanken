@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+/*Fonts*/
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 :root {
   /* Background color */
 
@@ -22,9 +37,11 @@
   /* Global menu */
   --color-menu-bg: #f48101;
   /* Links */
-  --color-link-bg: #ecf674;
-  --color-link-hover: light-dark(#fd4c85, #fd4c85);
-  --color-link-active: light-dark(#99958f);
+  --color-link-bg: #f48101;
+  --color-link: #feffed;
+  --color-link-hover-bg: #feffed;
+  --color-link-hover: #01449e;
+  --color-link-active-bg: #feffed;
   --border-radius-links: 1px;
   /* Headlines (color) */
   --color-headline-bg: #50907e;
