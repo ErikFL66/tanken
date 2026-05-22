@@ -122,7 +122,32 @@ select,
 }
 
 /* Nav styling */
+
+.burger .line {
+  display: block;
+  width: 1rem;
+  height: 2px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+  border: none;
+}
+
+.burger {
+  width: 30px;
+  height: 15px;
+  cursor: pointer;
+}
 @media (min-width: 1000px) {
+  .mob-navgrid-1_1 {
+    display: none;
+  }
+  #logomobil {
+    display: none;
+  }
   header {
     margin-top: 1.5rem;
   }
@@ -170,33 +195,36 @@ select,
 }
 
 @media screen and (max-width: 800px) {
+  .logonav {
+    display: none;
+  }
   /* header {
     margin-top: -1.5rem;
-  }
-  .logonav {
+  } */
+  /* .logonav {
     width: 100%;
     z-index: 1;
     padding-top: 3rem;
     padding-left: 2rem;
     margin-right: 1rem;
-  }
-  .navgrid-1_1 {
+  } */
+  /* .navgrid-1_1 {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
   .navcolor {
-    display: flex;
+    /* display: flex; */
     background-color: var(--strong-orange);
-    border-top: 4px solid var(--dark-blue);
-    border-bottom: 4px solid var(--dark-blue);
-    width: 100%;
-    height: 3rem;
+
+    /* width: 100%; */
+    /* height: 3rem; */
     margin-top: 2rem;
-    padding-left: 12rem;
-    margin-left: -20rem;
+    margin-bottom: 2rem;
+    /* padding-left: 12rem; */
+    /* margin-left: -20rem; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -208,11 +236,37 @@ select,
     font-weight: bold;
     text-decoration: none;
     margin-inline: 1rem;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
+    display: block;
+    margin-block: 0.4rem;
+    text-align: left;
   }
+  .mob-navgrid-1_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--strong-orange);
+    border-top: 4px solid var(--dark-blue);
+    border-bottom: 4px solid var(--dark-blue);
+    width: 100%;
+    height: 2.2rem;
+    margin-top: 1rem;
+    /* padding-left: 12rem; */
+    /* margin-left: -20rem; */
+    /* padding-inline: 5rem; */
+  }
+
+  #logomobil {
+    display: block;
+    margin: auto;
+    margin-top: 0.2rem;
+    width: 40%;
+    /* margin-left: 17%; */
+  }
+
   .navlink:hover {
     color: var(--color-link-hover);
-  } */
+  }
 
   .menu {
     display: none;
@@ -220,9 +274,9 @@ select,
   .burger {
     display: block;
     background-color: transparent;
-    border: 0;
+
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 7%;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
@@ -241,19 +295,22 @@ select,
 
   nav.active .menu {
     display: block;
-    background-color: #000000;
+    background-color: var(--strong-orange);
+    border-top: 4px solid var(--dark-blue);
+    border-bottom: 4px solid var(--dark-blue);
     position: absolute;
-    top: 20%;
+    /* top: 10%; */
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+
+    /* z-index: 0; */
   }
 
   nav.active .menu li {
     margin: 10px 20px;
   }
 
-  nav.active .menu a {
+  /* nav.active .menu a {
     font-size: 3rem;
-  }
+  } */
 }
