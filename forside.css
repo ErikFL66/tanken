@@ -284,6 +284,292 @@ body {
     z-index: -1;
     object-fit: cover;
     /* position: absolute; */
-    margin-block: 5rem;
+    margin-block: 6rem;
+  }
+
+  .bluebar {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .cykel {
+    border: 12px solid var(--dark-blue);
+    width: 22rem;
+    position: absolute;
+  }
+
+  .cykelborder {
+    border: 4px solid var(--off-white);
+  }
+
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+
+  .scroll span {
+    color: white;
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+    margin-bottom: 0;
+    line-height: 50px;
+  }
+
+  .RightToLeft {
+    /* display: inline-block; */
+    /* padding-left: 100%; */
+    animation: RightToLeft 20s linear infinite;
+  }
+  @keyframes RightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .LeftToRight {
+    animation: LeftToRight 20s linear infinite;
+  }
+
+  @keyframes LeftToRight {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  /* åbningstider */
+  .webopen {
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    color: var(--off-white);
+    padding-top: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .webcityopen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+  }
+  .openhours {
+    background-color: var(--off-white);
+    border-top: 4px solid var(--dark-blue);
+    border-bottom: 4px solid var(--dark-blue);
+    /* width: 100%;
+    height: 100%; */
+    margin-top: 5rem;
+    padding: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+  }
+
+  .opencolor {
+    /* background-color: var(--dark-blue); */
+    border-radius: 10px;
+    /* color: var(--off-white); */
+    padding-top: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .openlocation {
+    margin-top: 2rem;
+  }
+
+  .opentext {
+    /* color: var(--off-white); */
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .openlink {
+    text-decoration: underline;
+    color: var(--off-white);
+    font-family: "Montserrat", sans-serif;
+  }
+
+  table {
+    border-spacing: 30px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* specials */
+  .specialcards {
+    background-color: var(--off-white);
+    border: 4px solid var(--dark-blue);
+    width: 100%;
+    height: 80%;
+    margin-top: 5rem;
+    /* padding: 2rem; */
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    /* margin-inline: 10%; */
+    /* place-items: center; */
+    display: grid;
+    /* grid-template-columns: 1fr; */
+  }
+  .specialcardgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-inline: 2rem;
+    margin-left: 0rem;
+  }
+
+  .tavle {
+    grid-column: span1;
+    grid-row: span1;
+    margin-right: 1.8rem;
+  }
+
+  .tavletable {
+    grid-column: span1;
+    grid-row: span1;
+    z-index: 1;
+    margin-top: -2.8rem;
+    margin-left: -1rem;
+  }
+
+  .special1 {
+    grid-column: 1;
+    grid-row: span1;
+  }
+
+  .special2 {
+    grid-column: 2;
+    grid-row: span1;
+  }
+
+  .special3 {
+    grid-column: 3;
+    grid-row: span1;
+  }
+
+  .titlespecial {
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: left;
+    line-height: 15px;
+  }
+
+  /* Specialøl tabel spacing */
+  .table2 {
+    line-height: 30px;
+  }
+  .table3 {
+    line-height: 8px;
+  }
+  .table4 {
+    line-height: 20px;
+  }
+  .table5 {
+    line-height: 20px;
+  }
+  .table6 {
+    line-height: 16px;
+  }
+  .table7 {
+    line-height: 20px;
+  }
+
+  /* Merch tabel spacing */
+
+  .table3merch {
+    line-height: 58px;
+  }
+  .table5merch {
+    line-height: 20px;
+  }
+  .table7merch {
+    line-height: 48px;
+  }
+
+  /* Event tabel spacing */
+
+  .table1event {
+    line-height: 30px;
+  }
+  .table2event {
+    line-height: 10px;
+  }
+  .table3event {
+    line-height: 10px;
+  }
+  .table4event {
+    line-height: 50px;
+  }
+  .table5event {
+    line-height: 0px;
+  }
+  .table6event {
+    line-height: 30px;
+  }
+  .table7event {
+    line-height: 10px;
+  }
+
+  /* karusel */
+
+  .whitebar {
+    background-color: var(--off-white);
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top: 4px solid var(--dark-blue);
+    border-bottom: 4px solid var(--dark-blue);
+    margin-top: 6rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation: LeftToRightImg 20s linear infinite;
+  }
+
+  @keyframes LeftToRightImg {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+  .carouselimg {
+    padding: 1rem;
+    width: 20rem;
   }
 }
