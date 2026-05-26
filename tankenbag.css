@@ -6,12 +6,27 @@ body {
 
 /********* tanken bag sektion ***********************/
 
-/* baggrundsbillede*/
-.tanken-bag-sektion {
-  background-image: url(img/images/Paper-32.avif);
+/* baggrundsbox*/
+/* .tanken-bag-sektion {
+  background-color: #feffed;
+  border: 1px solid #01449e;
+  width: 1252px;
+  height: 1013px;
+  justify-self: center;
+} */
+
+/* baggrundspapir */
+/* .tanken-bag-sektion {
+  background-image: url("img/images/Paper-32.avif");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  padding: 80px 90px 120px 90px;
+} */
+
+.tanken-bag-sektion {
+  justify-content: center;
+  margin-inline: 200px;
 }
 
 /* overskrift lokation */
@@ -19,9 +34,8 @@ body {
 .tanken-bag-sektion h1 {
   font-family: young serif;
   font-size: 70px;
-  margin-left: 295px;
   padding-top: 80px;
-  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 /* tanken bag info sektion */
@@ -30,29 +44,30 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  margin-inline: 200px;
-  padding-block: 100px;
+  padding-block: 50px;
 }
 
 .tankenbagp {
   width: 520px;
   font-size: 20px;
+  justify-self: left;
 }
 
 .tankenbagimg img {
-  width: 447px;
+  width: 500px;
   height: auto;
+  margin-top: -120px;
 }
 /************* logo placering 1 ******************/
 
 .tblogo1 {
-  position: absolute;
-  right: -25px;
-  bottom: -15%;
+  position: relative;
+  left: 1142px;
+  bottom: 85px;
 }
 
 .tblogo1 img {
-  width: 120px;
+  width: 140px;
   transform: rotate(20deg);
 }
 
@@ -68,13 +83,14 @@ body {
 .tankpasserneid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin-inline: 283px;
-  margin-bottom: 100px;
   background: #feffed;
-  padding-block: 60px;
-  padding-inline: 55px;
-  border: 3px solid #01449e;
+  border: 3px solid var(--dark-blue);
+  width: 1127px;
+  height: 527px;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  margin-block: 50px;
 }
 
 .tankpasserneid img {
@@ -95,13 +111,91 @@ body {
   font-size: 20px;
 }
 
+.tankpasserneid div:last-child {
+  margin-right: 50px;
+}
+
 .tblogo2 {
-  position: absolute;
-  left: -12px;
-  bottom: -230%;
+  position: relative;
 }
 
 .tblogo2 img {
   width: 120px;
   transform: rotate(20deg);
+}
+
+/***************************************** mobilsite ******************/
+
+@media (max-width: 768px) {
+  /********** tanken bag sektion **************/
+  .tankenbaginfo {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .tanken-bag-sektion {
+    margin-inline: 20px;
+  }
+
+  .tankenbagp {
+    max-width: 400px;
+    font-size: 18px;
+    justify-self: center;
+  }
+
+  .tankenbagimg img {
+    width: 232px;
+    height: 348px;
+    margin-top: -550px;
+  }
+
+  .tanken-bag-sektion h1 {
+    margin-top: 600px;
+  }
+
+  .tankenbagimg {
+    order: -1;
+  }
+
+  .tblogo1,
+  .tblogo2 {
+    display: none;
+  }
+
+  .tanken-bag-sektion h1,
+  .tankpassernesektion h2 {
+    font-size: 42px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /*************** tank passerne sektion ******************/
+
+  .tankpasserneid {
+    grid-template-columns: 1fr;
+    width: 400px;
+    height: 800px;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    margin-block: 50px;
+  }
+  .tankpasserneid img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .tankpassernesektion p {
+    max-width: 300px;
+    font-size: 18px;
+  }
+  .tankpassernesektion h3 {
+    margin-top: -30px;
+    font-size: 32px;
+  }
+
+  .tankpasserneid div:last-child {
+    margin-right: 0px;
+  }
 }
