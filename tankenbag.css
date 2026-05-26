@@ -1,0 +1,107 @@
+body {
+  background-color: #fde7ae;
+  font-family: Montserrat;
+  line-height: auto;
+}
+
+/********* tanken bag sektion ***********************/
+
+/* baggrundsbillede*/
+.tanken-bag-sektion {
+  background-image: url(img/images/Paper-32.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* overskrift lokation */
+
+.tanken-bag-sektion h1 {
+  font-family: young serif;
+  font-size: 70px;
+  margin-left: 295px;
+  padding-top: 80px;
+  margin-bottom: 0px;
+}
+
+/* tanken bag info sektion */
+
+.tankenbaginfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-inline: 200px;
+  padding-block: 100px;
+}
+
+.tankenbagp {
+  width: 520px;
+  font-size: 20px;
+}
+
+.tankenbagimg img {
+  width: 447px;
+  height: auto;
+}
+/************* logo placering 1 ******************/
+
+.tblogo1 {
+  position: absolute;
+  right: -25px;
+  bottom: -15%;
+}
+
+.tblogo1 img {
+  width: 120px;
+  transform: rotate(20deg);
+}
+
+/**************** mød tankpasserne *********************/
+
+.tankpassernesektion h2 {
+  font-family: young serif;
+  font-size: 70px;
+  justify-self: center;
+  padding-block: 80px;
+}
+
+.tankpasserneid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-inline: 283px;
+  margin-bottom: 100px;
+  background: #feffed;
+  padding-block: 60px;
+  padding-inline: 55px;
+  border: 3px solid #01449e;
+}
+
+.tankpasserneid img {
+  width: 355px;
+  height: 355px;
+  object-fit: cover;
+}
+
+.tankpassernesektion h3 {
+  font-family: young serif;
+  font-size: 36px;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+.tankpassernesektion p {
+  width: 520px;
+  font-size: 20px;
+}
+
+.tblogo2 {
+  position: absolute;
+  left: -12px;
+  bottom: -230%;
+}
+
+.tblogo2 img {
+  width: 120px;
+  transform: rotate(20deg);
+}
