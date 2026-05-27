@@ -1,435 +1,514 @@
 @media screen and (max-width: 800px) {
   .mobilemenu {
     display: grid;
-    grid-template-columns: repeat(1fr);
-    .text1 {
-      z-index: 1;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -65%;
-      margin-bottom: 0rem;
-      padding-left: 10%;
-      padding-top: 2%;
-      text-align: center;
-    }
-
-    .tx1-1 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx1-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx1-3 {
-      line-height: 225%;
-      font-size: 175%;
-    }
-    .tx1-4 {
-      line-height: 190%;
-      font-size: 175%;
-    }
-
-    .text2 {
-      z-index: 1;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -65%;
-      padding-left: 15%;
-      padding-top: 1%;
-      text-align: center;
-    }
-
-    .tx2-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx2-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx2-3 {
-      line-height: 225%;
-      font-size: 175%;
-    }
-    .tx2-4 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .text3 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -78%;
-      padding-left: 10%;
-      text-align: center;
-    }
-
-    .tx3-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx3-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx3-3 {
-      line-height: 290%;
-      font-size: 175%;
-    }
-    .tx3-4 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx3-5 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .text4 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -35%;
-      margin-bottom: 0rem;
-      padding-left: 28%;
-      padding-top: 2%;
-      text-align: center;
-    }
-
-    .tx4-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx4-2 {
-      line-height: 185%;
-      font-size: 175%;
-    }
-
-    .text5 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -48%;
-      margin-bottom: 0rem;
-      padding-left: 17%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx5-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx5-2 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-
-    .tx5-3 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-
-    .text6 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -152%;
-      margin-bottom: 0rem;
-      padding-left: 17%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx6-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx6-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .tx6-3 {
-      line-height: 270%;
-      font-size: 175%;
-    }
-    .tx6-4 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx6-5 {
-      line-height: 300%;
-      font-size: 175%;
-    }
-    .tx6-6 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx6-7 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx6-8 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx6-9 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx6-10 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .text7 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -197%;
-      margin-bottom: 0rem;
-      padding-left: 16%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx7-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx7-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .tx7-3 {
-      line-height: 270%;
-      font-size: 175%;
-    }
-    .tx7-4 {
-      line-height: 215%;
-      font-size: 175%;
-    }
-    .tx7-5 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx7-6 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx7-7 {
-      line-height: 265%;
-      font-size: 175%;
-    }
-    .tx7-8 {
-      line-height: 215%;
-      font-size: 175%;
-    }
-    .tx7-9 {
-      line-height: 225%;
-      font-size: 175%;
-    }
-    .tx7-10 {
-      line-height: 215%;
-      font-size: 175%;
-    }
-    .tx7-11 {
-      line-height: 265%;
-      font-size: 175%;
-    }
-    .tx7-12 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx7-13 {
-      line-height: 225%;
-      font-size: 175%;
-    }
-
-    .text8 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -241%;
-      margin-bottom: 0rem;
-      padding-left: 10%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx8-1 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx8-2 {
-      line-height: 218%;
-      font-size: 175%;
-    }
-
-    .tx8-3 {
-      line-height: 245%;
-      font-size: 175%;
-    }
-    .tx8-4 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx8-5 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx8-6 {
-      line-height: 230%;
-      font-size: 175%;
-    }
-    .tx8-7 {
-      line-height: 229%;
-      font-size: 175%;
-    }
-    .tx8-8 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx8-9 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx8-10 {
-      line-height: 190%;
-      font-size: 175%;
-    }
-    .tx8-11 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx8-12 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx8-13 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx8-14 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx8-15 {
-      line-height: 250%;
-      font-size: 175%;
-    }
-    .tx8-16 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-
-    .text9 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -107.5%;
-      margin-bottom: 0rem;
-      padding-left: 12%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx9-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx9-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .tx9-3 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx9-4 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx9-5 {
-      line-height: 240%;
-      font-size: 175%;
-    }
-    .tx9-6 {
-      line-height: 240%;
-      font-size: 175%;
-    }
-    .tx9-7 {
-      line-height: 220%;
-      font-size: 175%;
-    }
-
-    .text10 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -47.5%;
-      margin-bottom: 0rem;
-      padding-left: 27%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx10-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx10-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-    .tx10-3 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-
-    .text11 {
-      z-index: 1;
-      font-size: 90%;
-      font-family: "Montserrat", sans-serif;
-      margin-top: -107.5%;
-      margin-bottom: 0rem;
-      padding-left: 20%;
-      padding-top: 0px;
-      text-align: center;
-    }
-
-    .tx11-1 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx11-2 {
-      line-height: 175%;
-      font-size: 175%;
-    }
-
-    .tx11-3 {
-      line-height: 275%;
-      font-size: 175%;
-    }
-    .tx11-4 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx11-5 {
-      line-height: 260%;
-      font-size: 175%;
-    }
-    .tx11-6 {
-      line-height: 200%;
-      font-size: 175%;
-    }
-    .tx11-7 {
-      line-height: 250%;
-      font-size: 175%;
-    }
+    grid-template-columns: 1fr;
   }
+
+  .text1 {
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -65%;
+    margin-bottom: 0rem;
+    padding-left: 10%;
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .tx1-1 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx1-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx1-3 {
+    line-height: 225%;
+    font-size: 175%;
+  }
+  .tx1-4 {
+    line-height: 190%;
+    font-size: 175%;
+  }
+
+  .text2 {
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -65%;
+    padding-left: 15%;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  .tx2-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx2-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx2-3 {
+    line-height: 225%;
+    font-size: 175%;
+  }
+  .tx2-4 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .text3 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -78%;
+    padding-left: 10%;
+    text-align: center;
+  }
+
+  .tx3-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx3-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx3-3 {
+    line-height: 290%;
+    font-size: 175%;
+  }
+  .tx3-4 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx3-5 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .text4 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -35%;
+    margin-bottom: 0rem;
+    padding-left: 28%;
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .tx4-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx4-2 {
+    line-height: 185%;
+    font-size: 175%;
+  }
+
+  .text5 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -48%;
+    margin-bottom: 0rem;
+    padding-left: 17%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx5-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx5-2 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+
+  .tx5-3 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+
+  .text6 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -152%;
+    margin-bottom: 0rem;
+    padding-left: 17%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx6-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx6-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .tx6-3 {
+    line-height: 270%;
+    font-size: 175%;
+  }
+  .tx6-4 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx6-5 {
+    line-height: 300%;
+    font-size: 175%;
+  }
+  .tx6-6 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx6-7 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx6-8 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx6-9 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx6-10 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .text7 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -197%;
+    margin-bottom: 0rem;
+    padding-left: 16%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx7-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx7-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .tx7-3 {
+    line-height: 270%;
+    font-size: 175%;
+  }
+  .tx7-4 {
+    line-height: 215%;
+    font-size: 175%;
+  }
+  .tx7-5 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx7-6 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx7-7 {
+    line-height: 265%;
+    font-size: 175%;
+  }
+  .tx7-8 {
+    line-height: 215%;
+    font-size: 175%;
+  }
+  .tx7-9 {
+    line-height: 225%;
+    font-size: 175%;
+  }
+  .tx7-10 {
+    line-height: 215%;
+    font-size: 175%;
+  }
+  .tx7-11 {
+    line-height: 265%;
+    font-size: 175%;
+  }
+  .tx7-12 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx7-13 {
+    line-height: 225%;
+    font-size: 175%;
+  }
+
+  .text8 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -241%;
+    margin-bottom: 0rem;
+    padding-left: 10%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx8-1 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx8-2 {
+    line-height: 218%;
+    font-size: 175%;
+  }
+
+  .tx8-3 {
+    line-height: 245%;
+    font-size: 175%;
+  }
+  .tx8-4 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx8-5 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx8-6 {
+    line-height: 230%;
+    font-size: 175%;
+  }
+  .tx8-7 {
+    line-height: 229%;
+    font-size: 175%;
+  }
+  .tx8-8 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx8-9 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx8-10 {
+    line-height: 190%;
+    font-size: 175%;
+  }
+  .tx8-11 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx8-12 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx8-13 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx8-14 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx8-15 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+  .tx8-16 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+
+  .text9 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -107.5%;
+    margin-bottom: 0rem;
+    padding-left: 12%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx9-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx9-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .tx9-3 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx9-4 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx9-5 {
+    line-height: 240%;
+    font-size: 175%;
+  }
+  .tx9-6 {
+    line-height: 240%;
+    font-size: 175%;
+  }
+  .tx9-7 {
+    line-height: 220%;
+    font-size: 175%;
+  }
+
+  .text10 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -47.5%;
+    margin-bottom: 0rem;
+    padding-left: 27%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx10-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx10-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+  .tx10-3 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+
+  .text11 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -107.5%;
+    margin-bottom: 0rem;
+    padding-left: 20%;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .tx11-1 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx11-2 {
+    line-height: 175%;
+    font-size: 175%;
+  }
+
+  .tx11-3 {
+    line-height: 275%;
+    font-size: 175%;
+  }
+  .tx11-4 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx11-5 {
+    line-height: 260%;
+    font-size: 175%;
+  }
+  .tx11-6 {
+    line-height: 200%;
+    font-size: 175%;
+  }
+  .tx11-7 {
+    line-height: 250%;
+    font-size: 175%;
+  }
+
+  .text12 {
+    z-index: 1;
+    font-size: 90%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -238%;
+    margin-bottom: 0rem;
+    padding-left: 12.5%;
+    padding-top: 0px;
+    text-align: center;
+  }
+  .tx12-1 {
+    line-height: 140%;
+    font-size: 175%;
+  }
+  .tx12-2 {
+    line-height: 325%;
+    font-size: 175%;
+  }
+  .tx12-3 {
+    line-height: 125%;
+    font-size: 175%;
+  }
+  .tx12-4 {
+    line-height: 350%;
+    font-size: 175%;
+  }
+  .tx12-5 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-6 {
+    line-height: 350%;
+    font-size: 175%;
+  }
+  .tx12-7 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-8 {
+    line-height: 375%;
+    font-size: 175%;
+  }
+  .tx12-9 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-10 {
+    line-height: 350%;
+    font-size: 175%;
+  }
+  .tx12-11 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-12 {
+    line-height: 350%;
+    font-size: 175%;
+  }
+  .tx12-13 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-14 {
+    line-height: 375%;
+    font-size: 175%;
+  }
+  .tx12-15 {
+    line-height: 100%;
+    font-size: 175%;
+  }
+  .tx12-16 {
+    line-height: 350%;
+    font-size: 175%;
+  }
+
+  /************ Tavler & Billeder **********'*/
+
   .mobilemenu {
     display: grid;
     grid-template-columns: 1fr;
@@ -551,5 +630,3 @@
     z-index: -1;
   }
 }
-
-/* hej */
