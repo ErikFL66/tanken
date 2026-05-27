@@ -504,8 +504,11 @@ body {
   .table1 {
     line-height: 50px;
   }
+  /* td {
+    line-height: 19px;
+  } */
   td {
-    line-height: 25px;
+    line-height: 120%;
   }
   /* .table2 {
     line-height: 0px;
@@ -537,17 +540,23 @@ body {
   .table7merch {
     line-height: 48px;
   } */
+  /* .merch {
+    line-height: 37px;
+  } */
   .merch {
-    line-height: 43px;
+    line-height: 210%;
   }
-
   .merchtable {
     margin-top: 1rem;
   }
 
   /* Event tabel spacing */
+  /* .event {
+    line-height: 24px;
+  } */
+
   .event {
-    line-height: 32px;
+    line-height: 155%;
   }
   /* .eventtavle {
     margin-top: 1rem;
