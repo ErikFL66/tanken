@@ -1,0 +1,1165 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+body {
+  background-color: #feffed;
+}
+
+.h1 {
+  font-family: "Young Serif", serif;
+  font-size: 36px;
+  color: #01439e;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+/*****************Lystavlen******************/
+
+/************************ tekst tabel **********************/
+
+@media screen and (max-width: 800px) {
+  .mobilemenu {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    .text1 {
+      z-index: 1;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -16.5rem;
+      margin-bottom: 0rem;
+      padding-left: 45px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx1-1 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+    .tx1-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx1-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx1-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text2 {
+      z-index: 1;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -16.3rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx2-1 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+    .tx2-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx2-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx2-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text3 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -20rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx3-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx3-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx3-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx3-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx3-5 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+
+    .text4 {
+      z-index: 1;
+      font-size: 100%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -8.5rem;
+      margin-bottom: 0rem;
+      padding-left: 110px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx4-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx4-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text5 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -12rem;
+      margin-bottom: 0rem;
+      padding-left: 70px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx5-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx5-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .tx5-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+
+    .text4 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -8.5rem;
+      margin-bottom: 0rem;
+      padding-left: 110px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx4-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx4-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text6 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -38rem;
+      margin-bottom: 0rem;
+      padding-left: 70px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx6-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx6-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .tx6-3 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx6-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx6-5 {
+      line-height: 3.8rem;
+      font-size: 175%;
+    }
+    .tx6-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx6-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx6-8 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx6-9 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx6-10 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text7 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -49.3rem;
+      margin-bottom: 0rem;
+      padding-left: 70px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx7-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .tx7-3 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx7-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx7-5 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx7-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-8 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-9 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx7-10 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-11 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-12 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-13 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+
+    .text8 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -60.5rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx8-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx8-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx8-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-8 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-9 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-10 {
+      line-height: 3.25rem;
+      font-size: 175%;
+    }
+    .tx8-11 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-12 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-13 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-14 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-15 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-16 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text9 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -27rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx9-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx9-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx9-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx9-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+
+    .text10 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -11.8rem;
+      margin-bottom: 0rem;
+      padding-left: 110px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx10-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx10-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+    .tx10-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+
+    .text11 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -27rem;
+      margin-bottom: 0rem;
+      padding-left: 80px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx11-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx11-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx11-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx11-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+  }
+  .mobilemenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    z-index: -1;
+  }
+  .tavle3g {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .tavle3dg {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    z-index: -1;
+  }
+
+  .tavle4g {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .tavle1 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .tavle2b {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  .tavle9lb {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .tavle12o {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .table15r {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .pink {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .tavle2g {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  .tavle15rød {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .tavle6p {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .shots {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .kaffe {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .øl {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .table1 {
+    z-index: 0;
+    font-size: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .lysskilte {
+    z-index: -1;
+  }
+}
+
+/***************** desktop version ******************/
+
+@media screen and (min-width: 1000px) {
+  .mobilemenu {
+    display: grid;
+    z-index: -1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -16.5rem;
+    margin-bottom: 0rem;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-right: 45px;
+    gap: 40px;
+    text-align: center;
+
+    .text1 {
+      z-index: 1;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -17rem;
+      margin-bottom: 0rem;
+      padding-left: 60px;
+      padding-top: 5px;
+      text-align: center;
+    }
+    .tx1-1 {
+      line-height: 5rem;
+      font-size: 175%;
+      z-index: 1;
+    }
+    .tx1-2 {
+      line-height: 3rem;
+      font-size: 175%;
+      z-index: 1;
+    }
+    .tx1-3 {
+      line-height: 4.7rem;
+      font-size: 175%;
+      z-index: 1;
+    }
+    .tx1-4 {
+      line-height: 2rem;
+      font-size: 175%;
+      z-index: 1;
+    }
+
+    .text2 {
+      z-index: 1;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -17rem;
+      margin-bottom: 0rem;
+      padding-left: 75px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx2-1 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+    .tx2-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx2-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx2-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+
+    .text3 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -21rem;
+      margin-bottom: 0rem;
+      padding-left: 60px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx3-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx3-2 {
+      line-height: 3.3rem;
+      font-size: 175%;
+    }
+    .tx3-3 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx3-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx3-5 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+
+    .text4 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -9rem;
+      margin-bottom: 0rem;
+      padding-left: 120px;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    .tx4-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx4-2 {
+      line-height: 3.75rem;
+      font-size: 175%;
+    }
+
+    .text5 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -12.5rem;
+      margin-bottom: 0rem;
+      padding-left: 85px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx5-1 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx5-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .tx5-3 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+
+    .text6 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -40rem;
+      margin-bottom: 0rem;
+      padding-left: 75px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx6-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx6-2 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .tx6-3 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+    .tx6-4 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx6-5 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx6-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx6-7 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx6-8 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx6-9 {
+      line-height: 4.8rem;
+      font-size: 175%;
+    }
+    .tx6-10 {
+      line-height: 2.5rem;
+      font-size: 175%;
+    }
+
+    .text7 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -52rem;
+      margin-bottom: 0rem;
+      padding-left: 70px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx7-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-2 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+
+    .tx7-3 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx7-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx7-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-6 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx7-8 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-9 {
+      line-height: 5rem;
+      font-size: 175%;
+    }
+    .tx7-10 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx7-11 {
+      line-height: 4.5rem;
+      font-size: 175%;
+    }
+    .tx7-12 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx7-13 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+
+    .text8 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -60.5rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx8-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx8-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx8-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-8 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-9 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-10 {
+      line-height: 3.25rem;
+      font-size: 175%;
+    }
+    .tx8-11 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx8-12 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-13 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-14 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx8-15 {
+      line-height: 4.3rem;
+      font-size: 175%;
+    }
+    .tx8-16 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+
+    .text9 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -27rem;
+      margin-bottom: 0rem;
+      padding-left: 50px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx9-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx9-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx9-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx9-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx9-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+
+    .text10 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -11.8rem;
+      margin-bottom: 0rem;
+      padding-left: 110px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx10-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx10-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+    .tx10-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+
+    .text11 {
+      z-index: 1;
+      font-size: 90%;
+      font-family: "Montserrat", sans-serif;
+      margin-top: -27rem;
+      margin-bottom: 0rem;
+      padding-left: 80px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .tx11-1 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-2 {
+      line-height: 3.2rem;
+      font-size: 175%;
+    }
+
+    .tx11-3 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-4 {
+      line-height: 3.5rem;
+      font-size: 175%;
+    }
+    .tx11-5 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    .tx11-6 {
+      line-height: 3rem;
+      font-size: 175%;
+    }
+    .tx11-7 {
+      line-height: 4rem;
+      font-size: 175%;
+    }
+    /*********** tavler og billeder ************/
+
+    .tavle3g {
+      margin-top: 20rem;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+    .tavle4g {
+      margin-top: 20rem;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+    .tavle3dg {
+      margin-top: 20rem;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    .tavle1 {
+      margin-top: -30.2rem;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    .tavle2b {
+      margin-top: -30.2rem;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+    .tavle9lb {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+      margin-top: -88rem;
+    }
+
+    .tavle12o {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+      margin-top: -55rem;
+    }
+
+    .table15r {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+      margin-top: -55rem;
+    }
+
+    .pink {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+    }
+
+    .tavle2g {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+    }
+    .tavle15rød {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+    }
+
+    .tavle6p {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      z-index: -1;
+    }
+
+    .shots {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .kaffe {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .øl {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: -27rem;
+      margin-bottom: 50px;
+    }
+    .table1 {
+      z-index: 0;
+      font-size: 100%;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .lysskilte {
+      z-index: -1;
+    }
+  }
+}
+/* fonts.googleapis.com */
