@@ -172,39 +172,36 @@ h2 {
   margin-inline: 10%;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  /* img {
-    object-fit: cover;
-    align-self: stretch;
-  } */
-  .texttest {
-    max-width: 65ch;
-  }
-  .grid_bb1 {
-    margin-inline: 10%;
-    width: 80%;
-    grid-column: 1/4;
-    grid-row: 1/6;
-  }
-  .grid_bb2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .grid_bb3 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  .grid_bb4 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-  }
-  .grid_bb5 {
-    grid-column: 2/3;
-    grid-row: 5/6;
-    align-items: center;
-    place-self: center;
-    margin-bottom: 10rem;
-  }
 }
+/* .texttest {
+  max-width: 65ch;
+} */
+.grid_bb1 {
+  margin-inline: 10%;
+  width: 80%;
+  grid-column: 1/4;
+  grid-row: 1/6;
+}
+.grid_bb2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.grid_bb3 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.grid_bb4 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.grid_bb5 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  align-items: center;
+  place-self: center;
+  margin-bottom: 10rem;
+}
+
 @media (min-width: 1000px) {
   .grid_bb {
     margin-inline: 10%;
@@ -219,35 +216,36 @@ h2 {
   /* display: grid; */
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 1fr 0.3fr 0.3fr 0.3fr 1fr;
-  img {
+  /* img {
     object-fit: cover;
     align-self: stretch;
-  }
-  .test {
-    width: 30%;
-  }
-  .grid_bbb1 {
-    width: 60%;
-    grid-column: 1/4;
-    grid-row: 1/6;
-  }
-  .grid_bbb2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .grid_bbb3 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  .grid_bbb4 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-  }
-  .grid_bbb5 {
-    grid-column: 2/3;
-    grid-row: 5/6;
-  }
+  } */
 }
+/* .test {
+    width: 30%;
+  } */
+.grid_bbb1 {
+  width: 60%;
+  grid-column: 1/4;
+  grid-row: 1/6;
+}
+.grid_bbb2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.grid_bbb3 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.grid_bbb4 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.grid_bbb5 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
 @media (min-width: 1000px) {
   .b-desk {
     display: grid;
