@@ -147,7 +147,7 @@
     img {
       object-fit: cover;
     }
-    .grid_b1 {
+    .grid_b1 {          
       grid-column: 1;
       grid-row: 1;
     }
@@ -398,6 +398,8 @@
 /****************** Festival Express ******************/
 /****************** Mobil ******************/
 @media screen and (max-width: 1000px) {
+
+
   .grid_bbbbbb {
     display: grid;
     grid-template-columns: repeat(3, auto);
