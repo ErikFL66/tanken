@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+    <title>Forms</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="tankenbag.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <section>
+        <div class="formsimg">
+            <img src="img/images/gal_2.webp" alt="frontbillede">
+        </div>
+        <div>
+            <h1 class="formsh1">Tilmeld dig nyhedsbrevet og hold dig opdateret på kommende events hos Tanken!</h1>
+        </div>
+    </section>
+
+    <section id="form-section">
+        <article id="forminfo">
+            <form>
+                <h2>Tilmeld dig her:</h2>
+
+                <fieldset class="flokation">
+                    <legend>
+                        <h4>Vælg din lokation</h4>
+                    </legend>
+
+                    <label for="København">
+                        <input name="valg" value="København" type="radio" id="København">
+                        København
+                    </label>
+
+                    <label for="Århus">
+                        <input name="valg" value="Århus" type="radio" id="Århus">
+                        Århus
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="navn">Fulde navn:</label>
+                    <input type="text" id="navn" name="navn" />
+                    <p class="error-message">Udfyld feltet</p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="age">Alder:</label>
+                    <input type="number" id="alder" name="alder" min="3" max="100">
+                    <p class="error-message">Udfyld feltet</p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="telefon">Tlf. nr.</label>
+                    <input type="tel" id="telefon" name="Tlf. nr." />
+                    <p class="error-message">Udfyld feltet</p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" />
+                    <p class="error-message">Udfyld feltet</p>
+                </fieldset>
+
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+                    Accept terms
+                </label>
+
+                <div class="cta-baggrund">
+                    <a href="#" class="cta">Tilmeld</a>
+                </div>
+
+            </form>
+        </article>
+    </section>
+
+</body>
+
+</html>
