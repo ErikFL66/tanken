@@ -2,15 +2,48 @@
 <html lang="da">
 
 <head>
-       
     <meta charset="UTF-8">
-       
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
     </style>
-       
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="begivenheder.css">
+    <link rel="icon" type="image/x-icon" href="img/icons/favicon.svg">
+    <title>Tanken</title>
+    <meta name="robots" content="noindex">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <div class="navgrid-1_1 menu">
+
+                    <div class="navcolor">
+                        <div class="logonav navorder">
+                            <img src="img/icons/logo.svg" alt="tanklogo">
+                        </div>
+                        <a class="navlink" href="begivenheder.html">Begivenheder</a>
+                        <a class="navlink" href="menu.html">Menu</a>
+                        <a class="navlink" href="merch.html">Merch</a>
+                        <a class="navlink" href="tankenbag.html">Tanken bag</a>
+                    </div>
+                </div>
+                <div class="mob-navgrid-1_1">
+                    <div id="logomobil">
+                        <img src="img/icons/logo.svg" alt="tanklogo">
+                    </div>
+                    <button class="burger" aria-label="burger menu">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+
+                </div>
+            </nav>
+        </div>
+    </header>
     <main class="begivenheder">
         <div class="grid_b">
             <img class="grid_b2" src="img/images/kvadrat-lykkehjul.webp" alt="lykkehjul">
@@ -25,7 +58,8 @@
         <div class="grid_bb">
             <img class="grid_bb1" src="img/images/Paper-32.png" alt="paper">
             <h1 class="grid_bb2">Begivenheder på Tanken</h1>
-            <p class="grid_bb3">På Tanken sker der altid noget. Vi afholder løbende events, der bringer folk sammen -
+            <p class="grid_bb3">På Tanken sker der altid noget. Vi afholder løbende events, der bringer folk sammen
+                -
                 uanset om du er til
                 quiz, løbeture
                 eller en god fest med livemusik. Udover de faste events byder vi løbende på sjove oplevelser efter
@@ -33,8 +67,11 @@
             </p>
             <p class="grid_bb4">Følg med på vores instagram for at holde dig opdateret på alt det, der sker på
                 Tanken.</p>
-            <button class="grid_bb5">Gå til gruppen</button>
+            <div class="cta-baggrund">
+                <a href="#" class="cta">Køb</a>
+            </div>
         </div>
+
         <div class="b-desk">
             <div>
                 <img class="img-b1" src="img/images/kvadrat-lykkehjul.webp" alt="lykkehjul">
@@ -74,7 +111,9 @@
                     Dame og
                     Vodka Maté.</p>
             </div>
-            <img class="img-b2" src="img/images/kvadrat-drinks.webp" alt="drinks">
+            <div>
+                <img class="img-b2" src="img/images/kvadrat-drinks.webp" alt="drinks">
+            </div>
         </div>
         <div class="b-desk">
             <img class="img-b3" src="img/images/kvadrat-runners.webp" alt="runners">
@@ -94,14 +133,14 @@
                     form, fart og kondital.</p>
                 <p class="grid_bbbbb4">Følg med og tilmeld dig på
                     Tanken Runners' Facebookgruppe.</p>
-                <button class="grid_bbbbb5">Gå til gruppen</button>
+                <div class="cta-baggrund">
+                    <a href="#" class="cta">Køb</a>
+                </div>
             </div>
         </div>
 
-        <div class="b-desk">
-            <div>
-                <img class="img-b4" src="img/images/kvadrat-cykel.webp" alt="cykel">
-            </div>
+        <div class="b-desk-1">
+            <img class="img-b4" src="img/images/kvadrat-cykel.webp" alt="cykel">
             <div class="grid_bbbbbb">
                 <img class="grid_bbbbbb1" src="img/images/Paper-32.png" alt="paper">
                 <h2 class="grid_bbbbbb2">Tankens Festival Ekspress</h2>
@@ -118,7 +157,7 @@
             </div>
         </div>
 
-            </main>
+    </main>
     <footer>
         <div class="lokationersamletfooter">
             <!------------- kontaktoplysninger Graven  -------------->
@@ -188,6 +227,11 @@
     </footer>
        
     <script src="burger.js"></script>
+       
+    <script src="dropdown.js"></script>
+       
+    <script src="dropdown_desktop.js"></script>
+
 </body>
 
 </html>

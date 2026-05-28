@@ -145,6 +145,10 @@ select,
   height: 15px;
   cursor: pointer;
 }
+
+.navlogo {
+  cursor: grabbing;
+}
 @media (min-width: 1000px) {
   #logomobil {
     display: none;
