@@ -6,7 +6,7 @@ body {
   line-height: auto;
 }
 
-p {
+.ptanken {
   color: var(--darkdark);
 }
 /**************** mobilsite *******************/
@@ -84,7 +84,7 @@ p {
 
 @media (min-width: 768px) {
   /* tanken bag info sektion */
-  p {
+  .ptanken {
     color: var(--darkdark);
   }
   .tankenbaginfo {

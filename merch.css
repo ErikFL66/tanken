@@ -1,0 +1,484 @@
+/* Dropdown menu */
+nav.active .dropdown {
+  display: none;
+}
+
+.dropdown-desktop {
+  display: none;
+}
+.dropdown {
+  background-color: #feffed;
+  color: #01449e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.dropdown .dropdown-btn {
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-content a {
+  text-decoration: none;
+  background-color: #feffed;
+  color: #01449e;
+  display: block;
+  padding-block: 5px 10px;
+  padding-left: 10px;
+  padding-right: 66px;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.103);
+  display: none;
+}
+
+.dropdown .dropdown-btn:hover {
+  color: #0a6ef1;
+}
+
+.dropdown .dropdown-content a:hover {
+  color: #0a6ef1;
+}
+/* Js style */
+
+.dropdown .dropdown-content.change {
+  display: block;
+}
+
+/* Styling af headers & tekst */
+body {
+  background: var(--color-merch-bg);
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 33px;
+  margin-left: -0.4rem;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: -0.3rem;
+}
+
+main p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling af produkt "bokse" */
+.merch_start {
+  margin-inline: 40px;
+}
+
+.merch_start-mobil {
+  display: none;
+}
+
+.merch_indhold {
+  margin-inline: 40px;
+  margin-bottom: 150px;
+  margin-top: 230px;
+  position: relative;
+  z-index: 2;
+}
+
+.merch_indhold img {
+  width: 80%;
+  height: 40%;
+  margin-inline: auto;
+  margin-block: 10px;
+  display: block;
+  border: 1px solid #01449e;
+  position: relative;
+  z-index: 2;
+}
+
+.text-box {
+  margin-top: -40px;
+  padding-block: 30px;
+  position: relative;
+}
+
+@media (max-width: 999px) {
+  .text-box::before {
+    content: "";
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    bottom: 0;
+    background-color: #feffed;
+    z-index: -1;
+    border-block: 1px solid #01449e;
+  }
+}
+
+/* CTA-knap styling */
+.cta {
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  background-color: #f48101;
+  padding-inline: 90px;
+  padding-block: 6px;
+  border: 2px solid #01449e;
+  border-radius: 5px;
+  display: inline-block;
+  transform: translate(-10px, -9px);
+}
+
+.cta-baggrund {
+  background-color: #01449e;
+  display: block;
+  margin-inline: auto;
+  width: max-content;
+  padding: 0;
+  margin-top: 40px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 5;
+}
+
+.cta-baggrund a:hover {
+  color: #f48101;
+  background-color: #feffed;
+  z-index: 100;
+}
+
+/* Slideshow */
+.slideshow {
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  background-color: #01449e;
+  padding-block: 2.5rem;
+}
+
+.slideshow::-webkit-scrollbar {
+  display: none;
+}
+.slideshow_gruppe {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  animation: spin 35s infinite linear;
+}
+
+.card {
+  flex: 0 0 18rem;
+  display: flex;
+  padding-inline: 1.5rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
+/* SVG styling & placering */
+.t-shirt {
+  position: absolute;
+  z-index: 10;
+  width: 210px;
+  height: auto;
+  left: 220px;
+  top: -50px;
+  transform: rotate(13deg);
+  fill: white;
+}
+
+.cykel {
+  position: absolute;
+  z-index: 10;
+  width: 240px;
+  height: auto;
+  left: -20px;
+  top: -10px;
+  transform: rotate(-24deg);
+  fill: white;
+}
+
+.ild {
+  position: absolute;
+  z-index: 10;
+  width: 80px;
+  display: flex;
+  justify-self: center;
+  top: -30px;
+  height: auto;
+  fill: white;
+}
+
+.mulepose {
+  position: absolute;
+  z-index: 10;
+  width: 120px;
+  height: auto;
+  top: -100px;
+  transform: rotate(-3deg);
+  fill: white;
+}
+
+.bus {
+  position: absolute;
+  z-index: 10;
+  width: 280px;
+  height: auto;
+  display: flex;
+  justify-self: center;
+  top: 100px;
+  transform: rotate(-5deg);
+  fill: white;
+}
+
+@media (min-width: 1000px) {
+  .dropdown-desktop {
+    background-color: #feffed;
+    color: #01449e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 100;
+    transform: translateX(150%);
+  }
+
+  .dropdown-desktop .dropdown-btn-desktop {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-top: 2.9px solid #01449e;
+    border-bottom: 2.9px solid #01449e;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .dropdown-desktop .dropdown-content-desktop a {
+    text-decoration: none;
+    background-color: #feffed;
+    color: #01449e;
+    display: block;
+    padding-block: 5px 10px;
+    padding-left: 10px;
+    padding-right: 66px;
+    margin-top: -2%;
+  }
+
+  .dropdown-desktop .dropdown-content-desktop {
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.103);
+    display: none;
+  }
+
+  .dropdown-desktop .dropdown-btn-desktop:hover {
+    color: #0a6ef1;
+  }
+  .dropdown-desktop .dropdown-content-desktop a:hover {
+    color: #0a6ef1;
+  }
+  /* Js style */
+
+.dropdown-desktop .dropdown-content-desktop.change {
+    display: block;
+  }
+  main {
+    margin-inline: 200px;
+  }
+
+  .merch_start {
+    display: none;
+  }
+  .slideshow {
+    margin-top: 160px;
+    margin-inline: -200px;
+    width: calc(100% + 400px);
+  }
+
+  .merch_start-mobil {
+    max-width: 55ch;
+    display: block;
+    margin-left: 4.5%;
+    margin-right: auto;
+    margin-top: 13%;
+    margin-bottom: -5%;
+  }
+
+  .merch_indhold-desktop,
+  .sticker_lighter-mobil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    position: relative;
+    margin-inline: 0;
+  }
+
+  .merch_indhold-desktop .merch_indhold,
+  .sticker_lighter-mobil .merch_indhold {
+    margin-inline: 0px;
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .merch_indhold {
+    position: relative;
+    z-index: 5;
+  }
+
+  .merch_indhold img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-inline: auto;
+    position: relative;
+    z-index: 10;
+  }
+
+  .text-box {
+    display: block;
+    position: relative;
+    z-index: 2;
+    max-width: 50ch;
+    margin-inline: auto;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+
+  .cta-baggrund {
+    position: relative;
+    z-index: 3;
+    margin-left: 2%;
+    margin-right: auto;
+    display: block;
+  }
+
+  .merch_indhold-desktop .text-box::before,
+  .virk_please .text-box::before,
+  .blomst_box .text-box::before,
+  .sticker_lighter-mobil .merch_indhold:first-child .text-box::before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    right: 100%;
+    margin-left: -100vw;
+    margin-right: -100vw;
+    width: 200vw;
+    background-color: #feffed;
+    border-block: 1px solid #01449e;
+    z-index: -1;
+  }
+
+  .merch_indhold-desktop .text-box::before {
+    top: 15px;
+    bottom: 260px;
+  }
+
+  .sticker_lighter-mobil .text-box::before {
+    top: -10px;
+    bottom: 255px;
+  }
+
+  .virk_please .text-box::before {
+    top: -220px;
+    bottom: -20px;
+  }
+
+  .blomst_box .text-box::before {
+    top: 10px;
+    bottom: -20px;
+  }
+  .merch_indhold-desktop,
+  .sticker_lighter-mobil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    position: relative;
+    margin-inline: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mulepose_img {
+    order: 1;
+  }
+
+  .merch_indhold svg {
+    position: absolute;
+    z-index: 15;
+  }
+
+  .t-shirt {
+    width: 25%;
+    height: auto;
+    left: -3%;
+    top: 80%;
+    transform: rotate(13deg);
+    fill: white;
+  }
+
+  .cykel {
+    width: 50%;
+    height: auto;
+    left: 38%;
+    top: 45%;
+    transform: rotate(-10deg);
+    fill: white;
+  }
+
+  .mulepose {
+    width: 11%;
+    height: auto;
+    top: 80%;
+    left: 87%;
+    transform: rotate(-1deg);
+    fill: white;
+  }
+
+  .bus {
+    width: 30%;
+    height: auto;
+    left: 8%;
+    top: 18%;
+    transform: rotate(-5deg);
+    fill: white;
+  }
+}
