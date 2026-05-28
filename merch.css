@@ -110,6 +110,7 @@ main p {
   display: block;
   border: 1px solid #01449e;
   position: relative;
+  margin-bottom: -20rem;
   z-index: 2;
 }
 
@@ -118,7 +119,13 @@ main p {
   padding-block: 30px;
   position: relative;
 }
+.text-box-merch {
+  grid-column: 2;
+}
 
+/* .stickerimgret {
+  margin-left: -30rem;
+} */
 @media (max-width: 999px) {
   .text-box::before {
     content: "";
@@ -316,7 +323,7 @@ main p {
   }
   /* Js style */
 
-.dropdown-desktop .dropdown-content-desktop.change {
+  .dropdown-desktop .dropdown-content-desktop.change {
     display: block;
   }
   main {
@@ -371,6 +378,9 @@ main p {
     position: relative;
     z-index: 10;
   }
+  .merchimgtop {
+    margin-left: -30rem;
+  }
 
   .text-box {
     display: block;
@@ -421,6 +431,10 @@ main p {
     bottom: -20px;
   }
 
+  .virk_please {
+    grid-column: 1;
+  }
+
   .blomst_box .text-box::before {
     top: 10px;
     bottom: -20px;
@@ -437,9 +451,9 @@ main p {
     margin-right: auto;
   }
 
-  .mulepose_img {
+  /* .mulepose_img {
     order: 1;
-  }
+  } */
 
   .merch_indhold svg {
     position: absolute;
@@ -450,7 +464,7 @@ main p {
     width: 25%;
     height: auto;
     left: -3%;
-    top: 80%;
+    top: 10%;
     transform: rotate(13deg);
     fill: white;
   }
