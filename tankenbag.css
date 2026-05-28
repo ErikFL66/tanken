@@ -110,7 +110,8 @@ p {
     margin-top: 100px;
     margin-left: -180px;
   }
-  /* overskrift */
+
+  /* overskrift  */
   .tanken-bag-sektion h1 {
     font-family: young serif;
     color: var(--darkdark);
@@ -146,11 +147,13 @@ p {
     justify-self: center;
     margin-block: 50px;
   }
+
   .tankpasserneid img {
     width: 355px;
     height: 355px;
     object-fit: cover;
   }
+
   .tankpassernesektion h3 {
     font-family: young serif;
     font-size: 36px;
@@ -174,6 +177,7 @@ p {
   .tblogo2 {
     display: block;
   }
+
   .tblogo1 img {
     width: 140px;
     transform: rotate(20deg);

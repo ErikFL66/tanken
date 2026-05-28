@@ -5,6 +5,7 @@
   body {
     background-color: #aec3c3;
   }
+
   .img-b {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -146,7 +147,7 @@
     img {
       object-fit: cover;
     }
-    .grid_b1 {
+    .grid_b1 {          
       grid-column: 1;
       grid-row: 1;
     }
@@ -397,7 +398,9 @@
 /****************** Festival Express ******************/
 /****************** Mobil ******************/
 @media screen and (max-width: 1000px) {
-   .grid_bbbbbb {
+
+
+  .grid_bbbbbb {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 1fr 1fr 1fr 1fr;
